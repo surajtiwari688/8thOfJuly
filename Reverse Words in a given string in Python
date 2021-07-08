@@ -1,0 +1,12 @@
+#Reverse Words in a given string in Python
+
+def rev_sentence(sentence): 
+  
+    
+    words = sentence.split(' ') 
+    reverse_sentence = ' '.join(reversed(words)) 
+    return reverse_sentence 
+  
+if __name__ == "__main__": 
+    input = 'this is a tree'
+    print (rev_sentence(input))
